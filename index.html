@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>React JS App</title>
 </head>
 <body>
@@ -14,22 +15,6 @@
 
   <!-- ReactDOM Library (for rendering React components to the DOM) -->
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-
-  <!-- React Code -->
-  <script>
-    // Create a <h1>Hello Universe!!</h1> element using React
-    const heading = React.createElement('h1', null, 'Hello Universe!!');
-
-    // Get the root DOM node with id="root" and initialize a React root
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-
-    // Render the React element into the root div
-    root.render(heading);
-  </script>
-  
-  <script>
-    // Plain Javascript code
-    //document.getElementById('root').innerHTML = '<h1>Hello World</h1>';
-  </script>
+  <script src="App.js"></script>
 </body>
 </html>
