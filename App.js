@@ -16,6 +16,7 @@ console.log(parent); //Return Object {type: "h1", props: {…}, key: null, ref: 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 console.log(root);
 // Render the React element into the root div
-root.render(parent);
+root.render(parent); 
+
 
 
